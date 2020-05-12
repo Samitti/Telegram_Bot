@@ -1,5 +1,5 @@
 require 'telegram/bot'
-require_relative '../lib/msg_processorgit .rb'
+require_relative '../lib/msg_processor.rb'
 
 my_bot = MsgProcessor.new
 token = '1257620277:AAG7Lpct4knimb_AcgoUHEyhYGKxHaomIE0'
