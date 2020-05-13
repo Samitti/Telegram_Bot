@@ -63,6 +63,9 @@ ruby bin/main.rb
 ```
 For linux:
 ```js
+
+gem install telegram-bot-ruby
+
 bin/main.rb
 
 ### Dependencies
