@@ -67,7 +67,7 @@ For linux:
 gem install telegram-bot-ruby
 
 bin/main.rb
-
+```
 ### Dependencies
 
 Ruby 2.5.5
