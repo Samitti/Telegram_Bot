@@ -1,8 +1,10 @@
 require_relative '../lib/msg_processor.rb'
 
 class BotInitializer < MsgProcessor
-  def def(_initialize)
+  attr_reader :token
+  def initialize
     SearchEngine.new
+    @token = '1257620277:AAG7Lpct4knimb_AcgoUHEyhYGKxHaomIE0'
   end
 
   def msg_initialize(name, msg)
