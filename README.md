@@ -58,7 +58,7 @@ If you are on windows:
 * Open prompt here (Option)
 ```js
 gem install telegram-bot-ruby
-```js
+
 ruby bin/main.rb
 ```
 For linux:
