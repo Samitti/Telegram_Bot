@@ -1,4 +1,4 @@
-require_relative '../lib/csv_reader.rb'
+require_relative '../lib/search_engine.rb'
 
 class MsgProcessor < SearchEngine
   def msg_reader(name, msg)
