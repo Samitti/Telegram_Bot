@@ -9,7 +9,7 @@ Telegram::Bot::Client.run(token) do |bot|
     msg = message.text
     puts msg
     result = covid.msg_initialize(message.from.first_name, msg)
-    bot.api.send_message(chat_id: message.chat.id, text: "#{result}")
-    #bot.api.send_message(chat_id: message.chat.id, text: "#{result},'\n' #{message.from.first_name}!")
+    bot.api.send_message(chat_id: message.chat.id, text: result.to_s)
+    # bot.api.send_message(chat_id: message.chat.id, text: "#{result},'\n' #{message.from.first_name}!")
   end
 end
