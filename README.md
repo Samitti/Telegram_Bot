@@ -28,7 +28,7 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
   <h3>Features</h3>
   <li>Type Hi to get the description</li>
   <li>Enter Correct country name</li>
-  <li>Displays the latest COVID-19 cases oth the selected country</li>
+  <li>Displays the latest COVID-19 cases of the selected country</li>
 </ul>
 
 ### Built With
@@ -37,10 +37,6 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
 - Rubocop (Linter) with Stickler (CI Tool)<br>
 - Git (with Gitflow), Github and VScode <br>
 
-## Live Demo
-
-To play online, go to the page and hit (Run) button.
-[Run on Repl.it]()
 
 ## Quick Start
 
