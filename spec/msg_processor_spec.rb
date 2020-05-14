@@ -5,9 +5,9 @@ describe MsgProcessor do
   let(:msg_one) { 'hi' }
   let(:msg_two) { 'ghsgw' }
   let(:msg_three) { 'eritrea' }
-  let(:result_one) { " Hi samuel!\n Please Seclect Country of your choise" }
+  let(:result_one) { " Hi samuel!\n Please Select Country of your choise" }
   let(:resul_two) { "Sorry, no results found.\n samuel Please select Country name!" }
-  let(:result_three) { " Hi !\n Please Seclect Country of your choise" }
+  let(:result_three) { " Hi !\n Please Select Country of your choise" }
   let(:result_four) { "Sorry, no results found.\n  Please select Country name!" }
   let(:result_five) { msg_processor.msg_validator(msg_three) }
   let(:name) { 'samuel' }

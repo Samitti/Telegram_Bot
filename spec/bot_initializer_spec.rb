@@ -4,7 +4,7 @@ describe BotInitializer do
   let(:msg_init) { BotInitializer.new }
   let(:msg_one) { 'hi' }
   let(:msg_two) { 'ghsgw' }
-  let(:result_one) { " Hi samuel!\n Please Seclect Country of your choise" }
+  let(:result_one) { " Hi samuel!\n Please Select Country of your choise" }
   let(:resul_two) { "Sorry, no results found.\n samuel Please select Country name!" }
   let(:name) { 'samuel' }
 
