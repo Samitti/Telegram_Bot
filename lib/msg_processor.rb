@@ -13,7 +13,7 @@ class MsgProcessor < SearchEngine
   end
 
   def greeter
-    " Hi #{@clinet_name}!\n Please Seclect Country of your choise"
+    " Hi #{@clinet_name}!\n Please Select Country of your choise"
   end
 
   def msg_validator(msg)
