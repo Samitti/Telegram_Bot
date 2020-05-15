@@ -3,16 +3,16 @@ require_relative '../lib/search_engine.rb'
 class MsgProcessor < SearchEngine
   def msg_reader(name, msg)
     @clinet_name = name
-    msg = msg.downcase
+    msg = msg.nil? ? 'hi' : msg.downcase
     case msg
+    when '/start'
+      greeter
     when 'hi'
       greeter
     else
       msg_validator(msg)
     end
   end
-
-  private
 
   def greeter
     " Hi #{@clinet_name}!\n Please select country of your choice."

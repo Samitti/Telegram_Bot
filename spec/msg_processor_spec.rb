@@ -33,7 +33,7 @@ describe MsgProcessor do
       expect(msg_processor.msg_validator(msg_three)).to eql(result_five)
     end
 
-    it 'returs error message if message is not valied' do
+    it 'returs error message if message is not valid' do
       expect(msg_processor.msg_validator(msg_two)).to eql(result_four)
     end
   end

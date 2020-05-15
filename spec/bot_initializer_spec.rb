@@ -13,7 +13,7 @@ describe BotInitializer do
       expect(msg_init.msg_initialize(name, msg_one)).to eql(result_one)
     end
 
-    it 'calls msg_reader and returns try again message if no valied message' do
+    it 'calls msg_reader and returns try again message if no valid message' do
       expect(msg_init.msg_initialize(name, msg_two)).to eql(resul_two)
     end
   end

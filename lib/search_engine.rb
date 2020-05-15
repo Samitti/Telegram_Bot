@@ -2,13 +2,13 @@ require 'csv'
 require 'open-uri'
 
 class SearchEngine
+  private
+
   def data_genrator
     content = open('https://raw.githubusercontent.com/CSSEGISandData/COVID-19/web-data/data/cases_country.csv').read
     File.write('./lib/temp.csv', content)
     csv_parser './lib/temp.csv'
   end
-
-  private
 
   def csv_parser(file_path)
     @result = []
@@ -16,6 +16,8 @@ class SearchEngine
       @result << line.split(',')
     end
   end
+
+  public
 
   def find_nation(nation)
     data_genrator

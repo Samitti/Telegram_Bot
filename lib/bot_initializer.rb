@@ -4,7 +4,7 @@ class BotInitializer < MsgProcessor
   attr_reader :token
   def initialize
     SearchEngine.new
-    @token = '1257620277:AAG7Lpct4knimb_AcgoUHEyhYGKxHaomIE0'
+    @token = '1154355582:AAH5QjYvHIlJ3GdUMejQ7Om4s3mpsTbb0-o'
   end
 
   def msg_initialize(name, msg)
