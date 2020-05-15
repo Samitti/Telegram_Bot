@@ -13,14 +13,14 @@ class MsgProcessor < SearchEngine
   end
 
   def greeter
-    " Hi #{@clinet_name}!\n Please Select Country of your choise"
+    " Hi #{@clinet_name}!\n Please select country of your choice."
   end
 
   def msg_validator(msg)
     if find_nation(msg).length > 1
       find_nation(msg)
     else
-      "Sorry, no results found.\n #{@clinet_name} Please select Country name!"
+      "Sorry, no results found.\n #{@clinet_name} Please select country name!"
     end
   end
 end
