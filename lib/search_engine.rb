@@ -8,6 +8,8 @@ class SearchEngine
     csv_parser './lib/temp.csv'
   end
 
+  private
+
   def csv_parser(file_path)
     @result = []
     File.read(file_path).split(/\n/).map do |line|

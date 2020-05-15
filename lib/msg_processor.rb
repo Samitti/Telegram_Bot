@@ -12,6 +12,8 @@ class MsgProcessor < SearchEngine
     end
   end
 
+  private
+
   def greeter
     " Hi #{@clinet_name}!\n Please select country of your choice."
   end
