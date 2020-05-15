@@ -20,7 +20,7 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
 ## Bot rules.
 
 * You can say Hi
-* The next is enter the name of the country of your choise
+* The next is enter the name of the country of your choice
 
 ## Requirements
 
@@ -50,9 +50,7 @@ Or just hit (Download Zip) on green button (Clone or Download) on top of this pa
 
 #### Run on terminal/prompt:
 
-If you are on windows:
-
-* Open the terminal and make sure the path is inside the Telegram_Bot
+* Open the terminal and make sure the path is inside the Telegram_Bot folder.
 
 * Run the code below to install telegram-bot-ruby from the Gemfile and start the bot.
 
