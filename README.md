@@ -10,7 +10,6 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
 
 * [Requirements](#requirements)
 * [Built With](#built-with)
-* [Live Demo](#live-demo)
 * [Quick Start](#quick-start)
 * [Dependencies](#dependencies)
 * [Contributing](#contributing)
@@ -19,6 +18,7 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
 * [License](#license)
 
 ## Bot rules.
+
 * You can say Hi
 * The next is enter the name of the country of your choise
 
@@ -41,29 +41,32 @@ The project specifications can be seen in [Click here](https://www.notion.so/Bui
 ## Quick Start
 
 #### Get a local copy with:<br>
+
 ```js
 git clone https://github.com/Samitti/Telegram_Bot.git
 ```
+
 Or just hit (Download Zip) on green button (Clone or Download) on top of this page.
 
 #### Run on terminal/prompt:
 
 If you are on windows:
-* Go inside the project folder
-* Right shift '+' right mouse click (Float menu)
-* Open prompt here (Option)
+
+* Open the terminal and make sure the path is inside the Telegram_Bot
+
+* Run the code below to install telegram-bot-ruby from the Gemfile and start the bot.
+
 ```js
-gem install telegram-bot-ruby
+bundle install
 
 ruby bin/main.rb
-```
-For linux:
-```js
 
-gem install telegram-bot-ruby
-
-bin/main.rb
 ```
+
+* The name of the bot is 'COVID-19 Updates' (Telegram Bot)
+
+* If you have problem finding it try [this link] (http://t.me/Sami_eri_bot)
+
 ### Dependencies
 
 Ruby 2.5.5
@@ -89,4 +92,3 @@ A special thanks for the code reviewers.
 ### License
 
 <strong>Creative Commons</strong>
-
