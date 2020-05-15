@@ -29,7 +29,7 @@ describe MsgProcessor do
   end
 
   describe '#msg_validator' do
-    it 'calls find_nation and if true returns the result' do
+    it 'calls find_nation and if valid message returns the result' do
       expect(msg_processor.msg_validator(msg_three)).to eql(result_five)
     end
 

@@ -9,7 +9,7 @@ describe BotInitializer do
   let(:name) { 'samuel' }
 
   describe '#msg_initialize' do
-    it 'calls msg_reader and returns based on the input message' do
+    it 'calls msg_reader and returns if message is valid' do
       expect(msg_init.msg_initialize(name, msg_one)).to eql(result_one)
     end
 
